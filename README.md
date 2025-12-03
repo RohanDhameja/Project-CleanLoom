@@ -19,6 +19,14 @@ Small weaving workshops across India face serious lint accumulation issues:
 📅 **Started**: December 2025  
 👥 **Team**: [Add team members]
 
+## 🚀 New to the Project?
+
+**→ Start with [START_HERE.md](./START_HERE.md)** - Simple guide, not overwhelming!
+
+**→ Need to set up for your team?** See [TEAM_SETUP.md](./TEAM_SETUP.md)
+
+**→ Ready to deploy?** See [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)
+
 ## Quick Navigation
 
 - **[Project Plan](./01_Project_Plan/PROJECT_ROADMAP.md)** - Detailed timeline and milestones
