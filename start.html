@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Here - CleanLoom Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+        
+        .status-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+        
+        .status-box h2 {
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        
+        .status-box p {
+            margin: 8px 0;
+            font-size: 1.1em;
+        }
+        
+        .checklist {
+            list-style: none;
+            margin-top: 15px;
+        }
+        
+        .checklist li {
+            padding: 8px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .checklist li:before {
+            content: "☐";
+            position: absolute;
+            left: 0;
+            font-size: 1.3em;
+        }
+        
+        .step-box {
+            background: #f8f9fa;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+        }
+        
+        .step-box h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.6em;
+        }
+        
+        .step-number {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 35px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+            margin: 10px 10px 10px 0;
+        }
+        
+        .btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(118, 75, 162, 0.4);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+        
+        .btn-secondary:hover {
+            background: #f0f4ff;
+        }
+        
+        .highlight-box {
+            background: #fff4e6;
+            border-left: 5px solid #ff9800;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        
+        .highlight-box h3 {
+            color: #ff9800;
+            margin-bottom: 10px;
+        }
+        
+        .icon {
+            font-size: 1.5em;
+            margin-right: 8px;
+        }
+        
+        .question-box {
+            background: #f0f4ff;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+        
+        .question-box strong {
+            color: #667eea;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        ul li {
+            margin: 8px 0;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .back-link:hover {
+            color: #764ba2;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+            color: #999;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .step-box, .status-box {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        
+        <div class="header">
+            <h1>👋 Welcome to CleanLoom!</h1>
+            <p class="subtitle">Low-cost lint reduction solution for small weaving workshops</p>
+        </div>
+        
+        <div class="highlight-box">
+            <h3>🎯 What is this project?</h3>
+            <p>We're creating a <strong>low-cost solution to reduce lint</strong> in small weaving workshops in India. This will help thousands of workers breathe cleaner air and work in better conditions.</p>
+        </div>
+        
+        <h2 style="color: #333; margin: 30px 0 20px 0; font-size: 2em;">🚀 New to the project? Follow these 3 steps:</h2>
+        
+        <div class="step-box">
+            <h2><span class="step-number">1</span> Understand the Problem (5 minutes)</h2>
+            <p style="margin-bottom: 15px;">Read this one document to understand what we're solving:</p>
+            <a href="02_Problem_Research/INITIAL_EVIDENCE.html" class="btn">📖 Read: What's the Problem?</a>
+            <p style="margin-top: 15px; color: #666;"><em>That's it! This tells you everything about the lint problem in workshops.</em></p>
+        </div>
+        
+        <div class="step-box">
+            <h2><span class="step-number">2</span> Check Current Status (2 minutes)</h2>
+            <p>See the <strong>Current Status</strong> box below to know what we're working on right now.</p>
+        </div>
+        
+        <div class="step-box">
+            <h2><span class="step-number">3</span> Jump In!</h2>
+            <p style="margin-bottom: 15px;">Based on what we're doing now, pick ONE action:</p>
+            
+            <div style="background: white; padding: 15px; border-radius: 8px; margin: 10px 0;">
+                <strong>📊 If we're doing research:</strong>
+                <ul>
+                    <li>Join a workshop visit (we'll give you templates)</li>
+                    <li>Review workshop photos</li>
+                    <li>Talk to a weaver</li>
+                </ul>
+            </div>
+            
+            <div style="background: white; padding: 15px; border-radius: 8px; margin: 10px 0;">
+                <strong>💡 If we're brainstorming:</strong>
+                <ul>
+                    <li>Join a brainstorming session</li>
+                    <li>Sketch 5 ideas</li>
+                    <li>Research similar solutions</li>
+                </ul>
+            </div>
+            
+            <div style="background: white; padding: 15px; border-radius: 8px; margin: 10px 0;">
+                <strong>🔨 If we're building:</strong>
+                <ul>
+                    <li>Help build a prototype</li>
+                    <li>Test something</li>
+                    <li>Take photos</li>
+                </ul>
+            </div>
+            
+            <div style="background: white; padding: 15px; border-radius: 8px; margin: 10px 0;">
+                <strong>✅ If we're testing:</strong>
+                <ul>
+                    <li>Visit a test site</li>
+                    <li>Collect feedback</li>
+                    <li>Measure results</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="status-box">
+            <h2>📍 Current Status</h2>
+            <p><strong>Phase:</strong> Problem Research & Documentation</p>
+            <p><strong>Week:</strong> 1 of 26</p>
+            <p><strong>Focus:</strong> Understanding the problem deeply</p>
+            
+            <h3 style="margin-top: 20px; margin-bottom: 10px;">This Week's Goals:</h3>
+            <ul class="checklist">
+                <li>Visit 3-5 workshops</li>
+                <li>Interview workshop owners</li>
+                <li>Take lots of photos</li>
+                <li>Document what we see</li>
+            </ul>
+            
+            <h3 style="margin-top: 20px; margin-bottom: 10px;">How you can help right now:</h3>
+            <ul style="list-style: none; padding-left: 0;">
+                <li>→ Review the workshop photos we have</li>
+                <li>→ Come on a workshop visit</li>
+                <li>→ Share ideas about solutions you've seen</li>
+            </ul>
+        </div>
+        
+        <div style="margin: 40px 0;">
+            <h2 style="color: #333; margin-bottom: 20px;">📚 Need More Detail?</h2>
+            <p style="margin-bottom: 20px;"><em>Most people won't need these, but they're here if you want to go deeper:</em></p>
+            
+            <a href="02_Problem_Research/FIELD_OBSERVATION_TEMPLATE.html" class="btn-secondary btn">Field Observation Template</a>
+            <a href="02_Problem_Research/INTERVIEW_TEMPLATE.html" class="btn-secondary btn">Interview Questions</a>
+            <a href="01_Project_Plan/PROJECT_ROADMAP.html" class="btn-secondary btn">Full 26-Week Roadmap</a>
+            <a href="README.html" class="btn-secondary btn">Project Overview</a>
+        </div>
+        
+        <div style="margin: 40px 0;">
+            <h2 style="color: #333; margin-bottom: 20px;">❓ Common Questions</h2>
+            
+            <div class="question-box">
+                <strong>Q: Do I need to read everything?</strong>
+                <p>A: No! Just read INITIAL_EVIDENCE and check Current Status above. That's enough to start.</p>
+            </div>
+            
+            <div class="question-box">
+                <strong>Q: Where do I save my work?</strong>
+                <p>A: We'll show you when you need to. Don't worry about it yet.</p>
+            </div>
+            
+            <div class="question-box">
+                <strong>Q: What if I have an idea?</strong>
+                <p>A: Share it! Text/WhatsApp/email anyone on the team, or just tell us in person.</p>
+            </div>
+            
+            <div class="question-box">
+                <strong>Q: I'm confused about something</strong>
+                <p>A: Ask anyone on the team. We're all learning together.</p>
+            </div>
+            
+            <div class="question-box">
+                <strong>Q: Can I change these documents?</strong>
+                <p>A: Yes! That's the whole point. If something isn't clear, make it better.</p>
+            </div>
+        </div>
+        
+        <div class="highlight-box">
+            <h3>🎯 The Big Picture (Simple Version)</h3>
+            
+            <div style="margin: 15px 0;">
+                <strong style="color: #ff9800;">The Problem:</strong>
+                <p>Workers in weaving workshops breathe lint-filled air all day. It's bad for their health.</p>
+            </div>
+            
+            <div style="margin: 15px 0;">
+                <strong style="color: #ff9800;">Our Goal:</strong>
+                <p>Create a simple, cheap solution (under ₹10,000) that removes 50%+ of the lint from the air.</p>
+            </div>
+            
+            <div style="margin: 15px 0;">
+                <strong style="color: #ff9800;">How We'll Do It:</strong>
+                <ol style="margin-left: 20px; margin-top: 10px;">
+                    <li><strong>Understand</strong> the problem (Weeks 1-6)</li>
+                    <li><strong>Brainstorm</strong> solutions (Weeks 7-10)</li>
+                    <li><strong>Build</strong> prototypes (Weeks 11-18)</li>
+                    <li><strong>Test</strong> in real workshops (Weeks 15-20)</li>
+                    <li><strong>Deploy</strong> to many workshops (Weeks 21+)</li>
+                </ol>
+            </div>
+            
+            <div style="margin: 15px 0;">
+                <strong style="color: #ff9800;">Success Looks Like:</strong>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Cleaner air in workshops</li>
+                    <li>Healthier workers</li>
+                    <li>Better fabric quality</li>
+                    <li>50+ workshops using our solution in 1 year</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div style="background: #f0f4ff; padding: 25px; border-radius: 15px; margin: 30px 0;">
+            <h2 style="color: #667eea; margin-bottom: 15px;">💡 Remember</h2>
+            <ul style="list-style: none; padding-left: 0;">
+                <li style="padding: 8px 0;">✓ <strong>Start small</strong> - You don't need to understand everything</li>
+                <li style="padding: 8px 0;">✓ <strong>Ask questions</strong> - No question is too basic</li>
+                <li style="padding: 8px 0;">✓ <strong>One step at a time</strong> - We'll guide you through each phase</li>
+                <li style="padding: 8px 0;">✓ <strong>It's okay to be confused</strong> - This is complex, we're figuring it out together</li>
+                <li style="padding: 8px 0;">✓ <strong>You belong here</strong> - Your perspective is valuable</li>
+            </ul>
+        </div>
+        
+        <div style="text-align: center; margin: 40px 0;">
+            <h2 style="color: #333; margin-bottom: 20px;">🚀 Ready to Start?</h2>
+            <a href="02_Problem_Research/INITIAL_EVIDENCE.html" class="btn" style="font-size: 1.2em; padding: 20px 40px;">Read: What's the Problem?</a>
+            <p style="margin-top: 20px; color: #666;">This is all you need to read today!</p>
+        </div>
+        
+        <div class="footer">
+            <p><strong>CleanLoom Project</strong></p>
+            <p style="margin-top: 10px;">Last Updated: December 3, 2025</p>
+            <p style="margin-top: 10px;"><a href="index.html" style="color: #667eea; text-decoration: none;">← Back to Home</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
