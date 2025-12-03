@@ -1,139 +1,191 @@
-# Start Here - Simple Guide 👋
+# 👋 Welcome to CleanLoom!
 
-## Welcome to CleanLoom!
+## What is this project?
 
-**Our Goal**: Create an affordable lint control solution for weaving workshops
-
-**Don't feel overwhelmed!** You don't need to read everything. Just follow the steps below based on what you're doing today.
+We're creating a **low-cost solution to reduce lint** in small weaving workshops in India. This will help thousands of workers breathe cleaner air and work in better conditions.
 
 ---
 
-## Quick Start (Pick Your Task)
+## 🚀 New to the project? Start here!
 
-### 📸 If you're visiting a workshop today
+### Step 1: Understand the Problem (5 minutes)
 
-1. Take lots of photos (machines, ceiling, walls, workers)
-2. Name photos: `Date_Workshop_Description.jpg` (example: `Dec5_RajeshWorkshop_Machines.jpg`)
-3. Put photos in folder: `08_Assets/Photos/Workshop_Photos/`
-4. Fill out simple notes (see `02_Problem_Research/INTERVIEW_TEMPLATE.md` but don't stress about completing everything)
+Read this one file:
+- **[02_Problem_Research/INITIAL_EVIDENCE.md](02_Problem_Research/INITIAL_EVIDENCE.md)**
 
-**That's it for today!**
+That's it! This tells you everything about what we're trying to solve.
 
 ---
 
-### 💡 If you're brainstorming solutions
+### Step 2: Know What Phase We're In (2 minutes)
 
-1. Grab paper and pen
-2. Write down EVERY idea that comes to mind (crazy ideas welcome!)
-3. Aim for 10-20 ideas
-4. Don't judge any ideas yet
-5. Save your notes in `03_Solution_Ideation/Ideas/`
-
-**Great job!**
+Check the **[Current Status](#current-status)** section below to see what we're working on right now.
 
 ---
 
-### 🔨 If you're building something
+### Step 3: Jump In!
 
-1. Take photos as you build
-2. Keep track of what materials you used and costs
-3. Use `04_Prototypes/PROTOTYPE_DOCUMENTATION_TEMPLATE.md` (but don't worry about filling every section - just the important parts)
+Based on what we're doing now, pick ONE action:
 
-**You're making progress!**
+**If we're doing research:**
+- Join a workshop visit (we'll give you templates)
+- Review workshop photos
+- Talk to a weaver
 
----
+**If we're brainstorming:**
+- Join a brainstorming session
+- Sketch 5 ideas
+- Research similar solutions
 
-### 📊 If you're testing a solution
+**If we're building:**
+- Help build a prototype
+- Test something
+- Take photos
 
-1. Take "before" photos
-2. Install the solution
-3. Wait a few days
-4. Take "after" photos
-5. Ask workers: "Is this better? Yes or No?"
-
-**Simple and effective!**
-
----
-
-## The 3 Most Important Files
-
-You only need to look at these to start:
-
-1. **README.md** - What is this project? (5 min read)
-2. **02_Problem_Research/INITIAL_EVIDENCE.md** - What problem are we solving? (10 min read)
-3. **01_Project_Plan/PROJECT_ROADMAP.md** - What's the overall plan? (15 min read when you have time)
-
-**Everything else is optional until you need it!**
+**If we're testing:**
+- Visit a test site
+- Collect feedback
+- Measure results
 
 ---
 
-## This Week's Focus
+## 📍 Current Status
 
-**Week 1 Goal**: Understand the problem
+**Phase**: Problem Research & Documentation  
+**Week**: 1 of 26  
+**Focus**: Understanding the problem deeply
 
-Simple tasks:
-- [ ] Visit 2-3 workshops
+**This Week's Goals:**
+- [ ] Visit 3-5 workshops
+- [ ] Interview workshop owners
 - [ ] Take lots of photos
-- [ ] Talk to 3-5 workers or owners
-- [ ] Ask them: "What's the biggest problem lint causes for you?"
+- [ ] Document what we see
 
-That's all! Don't overcomplicate it.
-
----
-
-## Where Do I Save Things?
-
-**Photos** → `08_Assets/Photos/Workshop_Photos/`  
-**Interview notes** → `02_Problem_Research/Interviews/`  
-**Ideas** → `03_Solution_Ideation/Ideas/`  
-**Prototype docs** → `04_Prototypes/`
+**How you can help right now:**
+- Review the workshop photos we have
+- Come on a workshop visit
+- Share ideas about solutions you've seen
 
 ---
 
-## Need Help?
+## 📚 Need More Detail?
 
-**Quick questions**: Ask your team lead
+**Most people won't need these**, but they're here if you want to go deeper:
 
-**Where to save something**: Check `PROJECT_GUIDE.md` (search for what you need)
+### Quick Guides (read if you're doing this task)
+- Going on a workshop visit? → [Field Observation Template](02_Problem_Research/FIELD_OBSERVATION_TEMPLATE.md)
+- Interviewing someone? → [Interview Template](02_Problem_Research/INTERVIEW_TEMPLATE.md)
+- Want the full timeline? → [Project Roadmap](01_Project_Plan/PROJECT_ROADMAP.md)
 
-**Detailed guidance**: Each folder has templates, but use them as guides, not rules!
-
----
-
-## Remember
-
-- ✅ **Progress over perfection** - Done is better than perfect
-- ✅ **Simple is good** - Don't overcomplicate
-- ✅ **Photos are valuable** - Take more than you think you need
-- ✅ **Ask questions** - No question is stupid
-- ✅ **Have fun** - You're making a real difference!
+### Reference Documents (use when you need them)
+- [Full Project Guide](PROJECT_GUIDE.md) - How everything works
+- [Folder Structure](FOLDER_STRUCTURE.md) - Where to save what
+- [README](README.md) - Detailed project overview
 
 ---
 
-## For Detailed Guidance (When You Need It)
+## ❓ Common Questions
 
-- **How to use this project**: See `PROJECT_GUIDE.md`
-- **Full timeline**: See `01_Project_Plan/PROJECT_ROADMAP.md`
-- **Getting started checklist**: See `GETTING_STARTED.md`
-- **Folder structure**: See `FOLDER_STRUCTURE.md`
+**Q: Do I need to read everything?**  
+**A:** No! Just read INITIAL_EVIDENCE.md and check Current Status above. That's enough to start.
 
-**But you don't need to read all of that today!**
+**Q: Where do I save my work?**  
+**A:** We'll show you when you need to. Don't worry about it yet.
 
----
+**Q: What if I have an idea?**  
+**A:** Share it! Text/WhatsApp/email anyone on the team, or just tell us in person.
 
-## Team Collaboration
+**Q: I'm confused about something**  
+**A:** Ask anyone on the team. We're all learning together.
 
-This project is on **[GitHub/GitLab - link coming soon]**
-
-You can:
-- View all files online
-- Add your own notes and photos
-- See what others are working on
-- Track progress together
-
-**Setup instructions below** ⬇️
+**Q: Can I change these documents?**  
+**A:** Yes! That's the whole point. If something isn't clear, make it better.
 
 ---
 
-**Just focus on one task at a time. You've got this!** 🚀
+## 👥 Team
 
+**Core Team:**
+- [Add names and roles]
+- Contact: [Add contact info]
+
+**How we work:**
+- Weekly check-ins: [Day/Time]
+- Communication: [WhatsApp group / Slack / Email]
+- Questions: Just ask!
+
+---
+
+## 🎯 The Big Picture (Simple Version)
+
+### The Problem
+Workers in weaving workshops breathe lint-filled air all day. It's bad for their health.
+
+### Our Goal
+Create a simple, cheap solution (under ₹10,000) that removes 50%+ of the lint from the air.
+
+### How We'll Do It
+1. **Understand** the problem (Weeks 1-6)
+2. **Brainstorm** solutions (Weeks 7-10)
+3. **Build** prototypes (Weeks 11-18)
+4. **Test** in real workshops (Weeks 15-20)
+5. **Deploy** to many workshops (Weeks 21+)
+
+### Success Looks Like
+- Cleaner air in workshops
+- Healthier workers
+- Better fabric quality
+- 50+ workshops using our solution in 1 year
+
+---
+
+## 📅 This Week's Schedule
+
+**Monday**: [Add activity]  
+**Wednesday**: [Add activity]  
+**Friday**: [Add activity]
+
+**Next workshop visit**: [Date/Time/Location]
+
+---
+
+## 🎉 Quick Wins
+
+Let's celebrate small progress:
+- ✅ Project structure set up
+- ⏳ First workshop visit
+- ⏳ First interview completed
+- ⏳ 10 solution ideas
+- ⏳ First prototype built
+
+---
+
+## 💡 Remember
+
+- **Start small** - You don't need to understand everything
+- **Ask questions** - No question is too basic
+- **One step at a time** - We'll guide you through each phase
+- **It's okay to be confused** - This is complex, we're figuring it out together
+- **You belong here** - Your perspective is valuable
+
+---
+
+## 🔗 Quick Links
+
+**For today:**
+- [What's the problem?](02_Problem_Research/INITIAL_EVIDENCE.md) ← **Start here**
+
+**When you need them:**
+- [Workshop visit checklist](02_Problem_Research/FIELD_OBSERVATION_TEMPLATE.md)
+- [Interview questions](02_Problem_Research/INTERVIEW_TEMPLATE.md)
+- [Full roadmap](01_Project_Plan/PROJECT_ROADMAP.md)
+- [How to use this project](PROJECT_GUIDE.md)
+
+---
+
+**Ready? Read [INITIAL_EVIDENCE.md](02_Problem_Research/INITIAL_EVIDENCE.md) and you're good to go!** 🚀
+
+---
+
+*Last Updated: December 3, 2025*  
+*Questions? Contact: [Add contact]*
