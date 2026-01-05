@@ -194,20 +194,43 @@ ___________________________________________________________________
 
 ## Photography Checklist
 
+**Permission Obtained**: [ ] Yes [ ] No  
+**Consent Type**: [ ] Verbal [ ] Written [ ] Not needed (no people)
+
 **Photos Taken**: [ ] Yes [ ] No
 
-- [ ] Wide shot of entire workshop
-- [ ] Close-up of looms showing lint accumulation
-- [ ] Ceiling and upper walls
-- [ ] Ventilation points (windows, doors, vents)
-- [ ] Existing fans or equipment
-- [ ] Electrical setup
+### Essential Photos (Must Have)
+- [ ] Wide shot of entire workshop (showing all looms)
+- [ ] Close-up of lint on machines (gears, frames, moving parts)
+- [ ] Lint on ceiling and upper walls
+- [ ] Lint on floor
+- [ ] Ventilation points (windows, doors, vents) - or lack thereof
+- [ ] Electrical setup (outlets, wiring)
+
+### Important Photos (Should Have)
+- [ ] Workers (with permission, faces blurred if requested)
+- [ ] Lint on fabric being produced
+- [ ] Existing fans or equipment (if any)
+- [ ] Cleaning tools/methods visible
+- [ ] Any existing solutions they've tried
+
+### Helpful Photos (Nice to Have)
+- [ ] Exterior of workshop
 - [ ] Floor plan sketch or overhead view
-- [ ] Workers (with permission)
-- [ ] Fabric being produced
+- [ ] Airborne lint visible (in light beam)
+- [ ] Room dimensions (with person/object for scale)
 - [ ] Any unique features or challenges
 
-**Photo Storage Location**: _______________________________________________
+**Photo File Names**: Use format `YYYYMMDD_Location_Subject_###.jpg`  
+**Example**: `20251203_Workshop_A_LintOnMachine_001.jpg`
+
+**Photo Storage Location**: 
+- GitHub: `08_Assets/Photos/Workshop_Photos/`
+- Backup: _______________________________________________
+
+**Privacy Notes**: 
+- Faces blurred: [ ] Yes [ ] No [ ] N/A
+- Permission to share publicly: [ ] Yes [ ] No [ ] Limited
 
 ---
 
@@ -259,5 +282,6 @@ ___________________________________________________________________
 ---
 
 *Observer Signature*: _______________ *Date*: _______________
+
 
 
