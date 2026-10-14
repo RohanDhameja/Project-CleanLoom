@@ -1,0 +1,95 @@
+# CleanLoom Project - Git Ignore File
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+~$*
+*.swp
+*.swo
+*~
+
+# Large Media Files (use Git LFS if needed)
+*.mov
+*.mp4
+*.avi
+*.mkv
+# Uncomment if files are too large:
+# *.jpg
+# *.png
+# *.pdf
+
+# Backup Files
+*.bak
+*.backup
+*_backup.*
+*_old.*
+
+# Personal Notes (if you want to keep some things private)
+PERSONAL_NOTES.md
+scratch/
+drafts/
+
+# Sensitive Information
+*_CONFIDENTIAL.*
+*_PRIVATE.*
+/sensitive_data/
+
+# Build/Output Directories (if you add any code later)
+/build/
+/dist/
+/output/
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules (if you add web components later)
+node_modules/
+package-lock.json
+
+# Python (if you add analysis scripts later)
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+ENV/
+
+# R (if you add data analysis later)
+.Rhistory
+.RData
+.Rproj.user
+
+# Logs
+*.log
+logs/
+
+# Database files (if you create any)
+*.db
+*.sqlite
+*.sqlite3
+
+# Compressed Archives (track originals, not archives)
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Keep these patterns to preserve folder structure
+!.gitkeep
+!README.md
+
+
+

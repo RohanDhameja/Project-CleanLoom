@@ -1,0 +1,16 @@
+# GitHub Pages Configuration
+title: CleanLoom Project
+description: Low-cost lint reduction solution for small weaving workshops
+theme: jekyll-theme-cayman
+markdown: kramdown
+
+# Optional: If you want to customize further
+plugins:
+  - jekyll-relative-links
+
+# Ensure markdown files render properly
+relative_links:
+  enabled: true
+  collections: true
+
+
